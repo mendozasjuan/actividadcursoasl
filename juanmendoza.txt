@@ -58,7 +58,7 @@ con su nombre generar un nuevo paquete, e instalarlo
 
 14-comando para listar redes inalambricas.
 
-   iwlist scan
+   iwlist scann
 
 15-como funcionan x11vnc, pasos del cliente y servidor
 
