@@ -1,0 +1,4 @@
+1) cp -r /usr/share/canaima-semilla/profiles/primera-base/ nombre-perfil (copia el sabor primera-base)
+2) cd nombre-perfil
+3) nano profile.conf y editar con opciones personalizadas
+4) c-s construir --medio="iso" --arch="i386" --sabor="juanmendoza" (contruye el sabor)

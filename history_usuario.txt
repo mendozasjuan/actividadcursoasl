@@ -1,0 +1,21 @@
+    1  su
+    2  history 
+    3  clear
+    4  mkdir evaluacion
+    5  ls -la
+    6  ls -l
+    7  clear
+    8  ls
+    9  cd evaluacion
+   10  git clone https://github.com/julioh/cursoasl.git
+   11  clear
+   12  cd cursoasl/
+   13  ls
+   14  nano evaluacion.txt
+   15  clear
+   16  cd ../actividadcursoasl/
+   17  nano juanmendoza.txt 
+   18  man debmirror
+   19  debmirror -arch=i386 --dist=wheezy --section=main --nosource --host=ftp.us.debian.org /var/www/debian/
+   20  nano juanmendoza.txt 
+   21  history > history_usuario.txt

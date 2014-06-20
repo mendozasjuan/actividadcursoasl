@@ -1,0 +1,2 @@
+equipo10 19042  0.8  1.9 530288 79936 ?        Sl   13:49   0:00 cunaguaro
+root     19083  0.0  0.0   7848   884 pts/1    S+   13:50   0:00 grep --color=auto cunaguaro

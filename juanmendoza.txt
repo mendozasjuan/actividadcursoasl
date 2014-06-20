@@ -37,7 +37,7 @@ history -c
 
 10-Como configuras una interfaz de red con dhcp
 
-   R= con el comando dhclient nombre_interfaz
+   R= con el comando dhclient eth0
 
 
 11-Que sucede cuando ejecutas el
@@ -58,9 +58,16 @@ con su nombre generar un nuevo paquete, e instalarlo
 
 14-comando para listar redes inalambricas.
 
+   iwlist scan
+
 15-como funcionan x11vnc, pasos del cliente y servidor
 
+   en el cliente se ejecuta el comnado x11vnc y en el servidor se ejecuta con alt+f2 el comando xtightvncviewer y se coloca
+   la direccion ip del equipo remoto
+
 16- Como agregamos el usuario y gestionamos el cambio de contraseña
+
+    el usuario se agrega con adduser nombre_usuario y la contraseña se le cambia con passwd nombre_usuario
 
 17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
   llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
@@ -70,10 +77,31 @@ con su nombre generar un nuevo paquete, e instalarlo
 18- donde se modifican los repositorios en debian, 
    - cuales son los pasos para ejecutar un repositorio nuevo.
 
+    se modifica en /etc/apt/sources.list
+    pasos:
+    1) nano /etc/apt/sources.list
+    2) se agrega el reporitorio deb http://ruta-al-repositorio version main contrib non-free
+    3) se guarda el archivo
+    4) se ejecuta el comando apt-get update
+
 19- Las particiones de un disco se nombran mediante el nombre de dispositivo y el
 número de partición:
 
+      DISCO IDE              PARTICIONES
+        hda                 hda1,hda2,hda3 ...
+        hdb                 hdb1,hdb2,hdb3 ... 
+        hdc                 hdc1,hdc2,hdc3 ... 
+        hdd                 hdd1,hdd2,hdd3 ...
+
+
+      DISCO SATA             PARTICIONES
+	sda                   sda1,sda2,sda3 ...
+        sdb                   sda1,sda2,sda3 ... 
+   
+
 20- Como hago un repositorio con debmirror, comando.
+
+     debmirror -arch=i386 --dist=wheezy --section=main --nosource --host=ftp.us.debian.org /var/www/debian/
 
 21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
 
