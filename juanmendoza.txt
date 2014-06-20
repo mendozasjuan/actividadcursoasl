@@ -21,7 +21,11 @@ history -c
 
 6-Como puedo visualizar las particiones del disco duro
 
+   R= Con el comando df -h
+
 7-Como matamos un proceso del computador
+
+   R = con el comando kill -p id_proceso
 
 8-Crear un carpeta llamada cunaguaro.
   -abrir cunaguaro
@@ -33,18 +37,19 @@ history -c
 
 10-Como configuras una interfaz de red con dhcp
 
+   R= con el comando dhclient nombre_interfaz
+
+
 11-Que sucede cuando ejecutas el
 comando: touch registros
-- Copia el archivo registros al directorio actual.
+
 -Crea un archivo vacío llamado registros.
--Borra el archivo registros.
--Mueve el archivo registros al directorio actual
+
 
 12-El comando: more examen
+
 - Despliega el contenido del archivo examen, una pantalla a la vez.
-- Nos cambia al directorio examen.
-- Crea el archivo examen el directorio actual.
-- Muestra las primeras líneas del archivo examen
+
 
 13-crear un carpeta sl
 descargar el paquete fuente de sl, modificar el tren 
